@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 300;
+}
+.center {
+    margin: 0 auto;
+} 
+
+h1 {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+.text {
+    font-size: 1.5em;
+}
+
+.white-text {
+    color: white;
+}
+
+nav {
+    background-color: #c12127;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 15px;
+    height: 35px;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.top-links {
+    float: right;
+    display: inline-block;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header {
+    background-size: cover;
+    background-image: url(images/city-scape.svg);
+    height: 350px;
+}
+.header p{
+    width: 71%;
+    margin-right: 25%;
+}
+
+.header div:nth-child(2) {
+    margin-top: 3%;
+}
+nav > div {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search-bar form {
+    width: 80%;
+}
+.search-bar input{
+    background: rgb(31, 82, 111);
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+.search-bar img{
+    width: 80px;
+    padding: 10px;
+}
+#bear-logo {
+    width: 30px;
+}
+.content {
+    width: 60%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    height: 16px;
+}
+.header a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+#orange-button {
+    background-color: rgb(240, 146, 51);
+}
+.content img {
+    float: right;
+    width: 80%;
+}
+
+
+/*COLLABORATION*/
+#collaboration {
+    background: rgb(39, 53, 71);
+    height: 300px;
+    padding-top: 50px ;
+}
+
+#collaboration > div{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#collaboration img {
+    float: left;
+    width: 40%;
+    padding: 10px 50px;
+}
+
+#collaboration > div > div {
+    width: 43%;
+}
+#collaboration a {
+    color: white;
+    text-decoration: none;
+    
+}
+#collaboration li {
+    padding: 10px 0;
+}
+#red-button {
+    margin: 4% 40% 6% 0%;
+    
+}
+
+#red-button > a {
+    background: rgb(203, 56, 55);
+}
+
+
+/*INSTALL*/
+
+#install {
+    height: 500px;
+    background-image: url(images/forklift.svg);
+    background-size: cover;
+    position: relative;
+}
+
+#install div {
+    top: 20%;
+    left: 10%;
+    position: absolute;
+    width: 30%;
+}
+
+#blue-button {
+    background-color: rgb(49, 68, 88);
+    text-decoration: none;
+}
+
+
+/*BUILDING*/
+#building {
+    width: 80%;
+}
+#building-content {
+    display: flex;
+    flex-direction: row;
+}
+#building div {
+    margin: 30px auto;
+    text-align: center;
+}
+
+#building h2 {
+    padding: 20px 0;
+}
+
+.building-div {
+    width: 33%;
+}
+
+.building-div p{
+    color: rgb(135, 145, 156);
+}
+
+.building-div a {
+    color: rgb(208, 74, 73);
+}
+
+#building h3 {
+    margin: 10px 0;
+}
+
+#building p {
+    padding: 0 20px;
+}
